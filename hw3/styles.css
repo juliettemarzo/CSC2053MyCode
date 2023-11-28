@@ -1,0 +1,80 @@
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: rgba(24, 106, 78, 0.587);
+    text-align: center;
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: rgba(24, 106, 78, 0.587);
+}
+
+body {
+    font-size: 1em;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgba(24, 106, 78, 0.587);
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.border {
+    border-style: solid;
+}
+
+.banner {
+    background-color:  rgb(194, 218, 209);
+    border-top: solid;
+    border-bottom: solid;
+}
+
+nav{
+    /* clear property will move the nav element on its own line and left justify */
+    clear: left;
+    padding:2em;
+    margin-left: 0em;
+}
+
+nav ul li {
+    /* float is used for positioning */
+    float: left;
+    margin-right: 0.5em;
+}
+
+nav ul li a {
+    padding: 0.25em 1em;
+    text-decoration: none; /* no underline */
+    background-color: #EBF5FF; /* pale bluish white */
+    color: #12ae6d; /* font color dark blue */
+    border: 2px solid white;
+    border-top-left-radius: 1em 1em; /* rounded corner! */
+    border-top-right-radius: 1em 1em; /* another rounded corner! */
+}
+
+nav ul li a:hover, nav ul li a:focus {
+    color: rgba(24, 106, 78, 0.587);
+    background-color: white;
+    font-weight: bold;
+}
+
+table {
+    border-style: none;
+    margin: 1%;
+    margin-bottom: 20%;
+}
+
+caption {
+    font-size: 2em;
+}
+    
+td, th {
+    padding: .5em;
+    padding-right:2em;
+}
+    
